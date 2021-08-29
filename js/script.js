@@ -59,4 +59,4 @@ const formtel = document.querySelector('.footer__form-tel');
 
 formCheck.addEventListener('click', () => {
   formCheck.classList.toggle('active');
-});
+}, {passive: true});
